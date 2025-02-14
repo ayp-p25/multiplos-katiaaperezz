@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Test1",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 multiplos.py",
+      "input": "3\r\n9",
+      "output": "El número 9 es múltiplo del 3",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test2",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 multiplos.py",
+      "input": "9\r\n3",
+      "output": "El número 9 es múltiplo del 3",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test3",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 multiplos.py",
+      "input": "1000\r\n12",
+      "output": "Ninguno de los números es múltiplo del otro",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test4",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 multiplos.py",
+      "input": "0\r\n680",
+      "output": "El número 0 es múltiplo del 680",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Test5",
+      "setup": "",
+      "run": "LANG=en_US.utf8 timeout 1m python3 multiplos.py",
+      "input": "910\r\n0",
+      "output": "El número 0 es múltiplo del 910",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
