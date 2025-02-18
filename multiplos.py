@@ -6,7 +6,7 @@ Multiplos
 numero_1 = int(input("Introduzca un número:"))
 numero_2 = int(input("Introduzca otro número:"))
 
-if numero_1 and numero_2 != 0: 
+if numero_2 != 0: 
 # Proceso
     if numero_1 % numero_2 == 0 :
         resultado = "El número " + str(numero_1) + " es múltiplo del " + str(numero_2) + "."
