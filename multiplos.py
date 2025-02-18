@@ -14,6 +14,6 @@ if numero_2 != 0:
     else:
         resultado = "Ninguno de los números es múltiplo del otro"
 else: numero_2 % numero_1
-resultado= "El número " + str(numero_1) + " es múltiplo del " + str(numero_2) 
+resultado= "El número " + str(numero_2) + " es múltiplo del " + str(numero_1) 
 # Salidas
 print(resultado)
